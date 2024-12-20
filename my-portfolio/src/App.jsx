@@ -1,7 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import MainInformation from "./components/MainInformation";
-import MainNavigation from "./components/mainNavigation";
+import MainNavigation from "./components/MainNavigation";
 import MySkills from './components/MySkills'
 import MyProjects from './components/MyProjects'
 import MyExperience from "./components/MyExperience";
