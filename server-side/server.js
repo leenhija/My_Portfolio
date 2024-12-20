@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 // Static files (React build folder)
-app.use(express.static(path.join(__dirname, '../my-portfolio/dist')));
+// app.use(express.static(path.join(__dirname, '../my-portfolio/dist')));
 
 // Nodemailer setup
 const contactEmail = nodemailer.createTransport({
@@ -37,7 +37,7 @@ contactEmail.verify((error) => {
 });
 
 // Routes
-app.post('/api/contact', (req, res) => {
+app.post('/contact', (req, res) => {
   const { fullName, email, message } = req.body;
 
   if (!fullName || !email || !message) {
@@ -63,9 +63,9 @@ app.post('/api/contact', (req, res) => {
 });
 
 // Serve React app for any other route
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../my-portfolio/dist', 'index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, '../my-portfolio/dist', 'index.html'));
+// });
 
 // Start the server
 app.listen(PORT, () => {
