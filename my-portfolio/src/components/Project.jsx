@@ -52,7 +52,7 @@ export default function Project({ image, title, date, children ,github }) {
             className=" ps-2 pe-2 rounded-4"
             style={{ boxShadow: "7px 7px rgb(0,0,0,25%)", fontWeight: "500" }}
           >
-           <a href={github} target="_blank" style={{textDecoration:'none' , color:'black'}}> <img src={GitHub} style={{ maxWidth: "20px", maxHeight: "20px" }} />{" "}
+           <a href={github} target="_blank" style={{textDecoration:'none' , color:'black',fontFamily:'"Rubik" , serif'}}> <img src={GitHub} style={{ maxWidth: "20px", maxHeight: "20px" }} />{" "}
             GitHub code</a>
           </Button>
         </div>

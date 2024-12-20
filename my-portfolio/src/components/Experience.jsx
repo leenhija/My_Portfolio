@@ -4,7 +4,7 @@ export default function Experience({ image, title, children }) {
     <div
       className=" container grid row ps-0 pe-0 rounded-3"
       style={{
-        backgroundColor: "#d4d4d8",
+        backgroundColor: "#D9D9D9",
         maxWidth: "1000px",
         height:'100%',
         border: "3px #d4d4d8 solid",

@@ -16,6 +16,7 @@ export default function ContactMe() {
           <img
             src={contactme}
             alt="contact me image"
+            className="p-3"
             style={{ maxWidth: "400px", maxHeight: "300px" }}
           />
         </div>

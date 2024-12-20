@@ -105,13 +105,14 @@ export default function ContactMeForm() {
           style={{ width: "100%" }}
         >
           <Button
-            className="mt-4 pt-3 pb-3 ps-4 pe-4 rounded-4"
+            className="mt-4 pt-2 pb-2 ps-4 pe-4 rounded-4"
             type="submit"
             style={{
-              boxShadow: "5px 5px rgb(0,0,0,100%)",
+              boxShadow: "0px 4px 4px rgb(0,0,0,25%)",
               border: "none",
               fontWeight: "500",
               backgroundColor: "#60A7F9",
+              fontFamily:'"Rubik" , serif'
             }}
           >
             {buttonText}

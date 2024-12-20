@@ -5,7 +5,7 @@ export default function MyExperience() {
   return (
     <section id="Experience" className="container appearAnimation grid col mt-5 gap-5 d-flex flex-column justify-content-center mb-5">
        <div className=' row  gap-5'>
-            <h1 style={{fontFamily:'"Roboto" , sans-serif'}}>My Experience</h1>
+            <h1 style={{fontFamily:'"Rubik" , serif'}}>Experience</h1>
             </div>
       <div
         className=" col d-flex flex-column align-items-start justify-content-start"

@@ -13,7 +13,7 @@ export default function AboutMe() {
         {/* <SkillsInRatio/> */}
       </div>
       <div className="col grid column-gap-5">
-        <DetailsAboutMe heading="About Me" className="row">
+        <DetailsAboutMe heading="About Me:" className="row">
          
             Recent graduate with a BSc in Computer Information Systems and a
             three-months internship experience. Seeking a Junior Front-End
@@ -25,7 +25,7 @@ export default function AboutMe() {
             company goals and take on more responsibility as quickly as
             possible.
         </DetailsAboutMe>
-        <DetailsAboutMe heading="My Education" className="row">
+        <DetailsAboutMe heading="Education:" className="row">
             Bachelor of Computer Information Systems Jordan University of
             Science and Technology | Irbid, Jordan, July 2024
             <p className="text-start ps-0 ms-0">GPA: Very Good </p>

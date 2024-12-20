@@ -11,7 +11,7 @@ export default function MyProjects() {
   return (
     <section id="projects" className="container animateitem grid col d-flex flex-column justify-content-center mb-5" >
       <div className='row  gap-5 pb-4'>
-            <h1 style={{fontFamily:'"Roboto" , sans-serif'}}>My Projects</h1>
+            <h1 style={{fontFamily:'"Rubik" , serif'}}>Projects</h1>
             </div>
       <div  className="container grid row gap-4 d-flex flex-row justify-content-center mb-5" style={{maxWidth:'1300px'}}>
       

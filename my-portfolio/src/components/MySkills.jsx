@@ -24,7 +24,7 @@ export default function MySkills(){
     return(
         <section id='skills' className='container m-5 col pt-5' style={{maxWidth:'1200px'}}>
             <div className='row  gap-5 pb-5 '>
-            <h1 style={{fontFamily:'"Roboto" , sans-serif'}}>My Skills</h1>
+            <h1 style={{fontFamily:'"Rubik" , serif'}}>Skills</h1>
             </div>
          <div className='row gap-5 mb-5 pb-5 '>  
           <Skill image={cpp} text='C++'/>
