@@ -13,7 +13,7 @@
       },
       {
         "src": "/(.*)",        
-        "dest": "/my-portfolio/dist/$1"
+        "dest": "../my-portfolio/dist/$1"
       }
     ]
   }
