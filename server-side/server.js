@@ -37,7 +37,7 @@ contactEmail.verify((error) => {
 });
 
 // Routes
-app.post('/contact', (req, res) => {
+app.post('/api/contact', (req, res) => {
   const { fullName, email, message } = req.body;
 
   if (!fullName || !email || !message) {
