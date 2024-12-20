@@ -26,7 +26,6 @@ export default function MainNavigation(){
              type="submit"
              style={{
                border: "none",
-               fontWeight: "500",
                color:'white',
                backgroundColor: "#464646",
                fontWeight:'200',
