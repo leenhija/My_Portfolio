@@ -4,19 +4,12 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 require('dotenv').config();
 
-
-// Load environment variables from .env file
-
-
+// Initialize express app
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
-
-// Static files (React build folder)
-app.use(express.static(path.join(__dirname, '../my-portfolio/dist')));
 
 // Nodemailer setup
 const contactEmail = nodemailer.createTransport({
@@ -58,16 +51,14 @@ app.post('/contact', (req, res) => {
       console.error("Error sending email:", error);
       return res.status(500).json({ error: "Failed to send message. Please try again later." });
     }
-    res.status(200).json({code:200, message: "Message sent successfully!" });
+    res.status(200).json({code: 200, message: "Message sent successfully!" });
   });
 });
 
-// Serve React app for any other route
+// Serve React app (for other routes)
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../my-portfolio/dist', 'index.html'));
 });
 
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+// Export as serverless function for Vercel
+module.exports = app;
