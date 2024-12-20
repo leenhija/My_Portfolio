@@ -1,13 +1,14 @@
 import my_photo from "../assets/my_photo2.jpg";
 import Button from "react-bootstrap/Button";
-const pdf_url = "http://localhost:5173/Leen_Abo_AlHija.pdf";
-
+// const pdf_url = "http://localhost:5000/Leen_Abo_AlHija.pdf";
+const pdf_url = "/Leen_Abo_AlHija.pdf";
 export default function InfoCard() {
   const downloadCV = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
     aTag.href = url;
     aTag.setAttribute("download", fileName);
+    aTag.setAttribute('target',"_blank")
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
@@ -54,7 +55,6 @@ export default function InfoCard() {
             className="mt-1 ps-4 pe-4 pt-2 pb-2 rounded-4"
             style={{
               border: "none",
-               fontWeight: "500",
                backgroundColor:'#F8CF4B',
                boxShadow: "0px 4px 4px rgb(0,0,0,25%)",
 
