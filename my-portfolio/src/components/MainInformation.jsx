@@ -22,9 +22,9 @@ export default function MainInformation() {
           Hi, my name is leen.
         </p>
         <p
-          className="h1 "
+          className="h1"
           style={{
-            fontSize: "75px",
+            fontSize: "70px",
             fontFamily: '"Kadwa", serif',
             fontWeight: "bold",
           }}
@@ -34,7 +34,7 @@ export default function MainInformation() {
         <p
           className="h1"
           style={{
-            fontSize: "75px",
+            fontSize: "70px",
             marginTop: "-15px",
             fontFamily: '"Kadwa", serif',
             fontWeight: "bold",
