@@ -3,8 +3,8 @@ import rapidly from "../assets/rapidly.png";
 import eventWebsite from "../assets/eventWebsite.png";
 import food_store from "../assets/food.jpg";
 import managmentProject from '../assets/project_management.png'
-import { useEffect } from "react";
-import AOS from "aos";
+
+import Carousel from 'react-bootstrap/Carousel';
 import 'aos/dist/aos.css'; 
 export default function MyProjects() {
 
@@ -14,6 +14,7 @@ export default function MyProjects() {
             <h1 style={{fontFamily:'"Roboto" , sans-serif'}}>My Projects</h1>
             </div>
       <div  className="container grid row gap-4 d-flex flex-row justify-content-center mb-5" style={{maxWidth:'1300px'}}>
+      
       <Project image={rapidly} title="Rapidly (Exam Generator)" date="2024" github="https://github.com/leenhija/Graduation_project" >
         <p className="ps-3 pe-3" style={{ fontFamily:'"Montserrat", serif' , fontSize:'14px'}}>
           1. Implemented user-friendly interfaces and functionalities using

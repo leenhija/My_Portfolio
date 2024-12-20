@@ -147,7 +147,16 @@
     transform: translateY(0);
   }
 }
-
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -169,7 +178,16 @@
     transform: translateX(0);
   }
 }
-
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
 /* Apply animations to the AboutMe section */
 #about_me {
   animation: fadeIn 4s ease-in-out;
@@ -212,4 +230,9 @@
   animation: slideIn 4.2s ease-in-out; 
   animation-timeline: view();
   animation-range: entry 0; /* Slowed down from 2.2s to 4.2s */
+}
+.appearAnimation{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 10%;
 }

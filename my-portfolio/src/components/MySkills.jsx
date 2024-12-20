@@ -26,7 +26,7 @@ export default function MySkills(){
             <div className='row  gap-5 pb-5 '>
             <h1 style={{fontFamily:'"Roboto" , sans-serif'}}>My Skills</h1>
             </div>
-         <div className='row gap-5 mb-5 pb-5'>  
+         <div className='row gap-5 mb-5 pb-5 '>  
           <Skill image={cpp} text='C++'/>
           <Skill image={python} text='Python'/>
           <Skill image={javascript} text="JavaScript(ES6+)"/>

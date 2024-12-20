@@ -3,12 +3,12 @@ import Rhino from '../assets/rhino_logo.png'
 import Alrajaa from '../assets/alrajaa_logo.png'
 export default function MyExperience() {
   return (
-    <section id="Experience" className="container grid col mt-5 gap-5 d-flex flex-column justify-content-center mb-5">
-       <div className='animateitem1 row  gap-5'>
+    <section id="Experience" className="container appearAnimation grid col mt-5 gap-5 d-flex flex-column justify-content-center mb-5">
+       <div className=' row  gap-5'>
             <h1 style={{fontFamily:'"Roboto" , sans-serif'}}>My Experience</h1>
             </div>
       <div
-        className="animateitem1 col d-flex flex-column align-items-start justify-content-start"
+        className=" col d-flex flex-column align-items-start justify-content-start"
         style={{height:'500px'}}
         
       >
@@ -20,7 +20,7 @@ export default function MyExperience() {
         </Experience>
       </div>
       <div
-       className="animateitem2 col d-flex flex-column align-items-end "
+       className=" col d-flex flex-column align-items-end "
        style={{height:'500px'}}
        >
         <Experience image={Alrajaa} title="Intern at The Hope International Company Remote, July 2023-Sep 2023 ">

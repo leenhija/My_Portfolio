@@ -1,7 +1,9 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
-
+import check from '../assets/check.png'
+import cross from '../assets/cross.png'
 export default function ContactMeForm() {
+  
   const formInitialDetails = {
     fullName: "",
     email: "",
@@ -31,7 +33,7 @@ export default function ContactMeForm() {
     let result=await response.json();
     setFormDetails(formInitialDetails);
     if(result.code===200){
-         setStatus({success:true , message:'Message sent successfully'})
+         setStatus({success:true , message:'Message sent successfully',})
     } else{
         setStatus({success:false , message:'Somthing went wrong, please try agail later.'})
     }
@@ -93,7 +95,10 @@ export default function ContactMeForm() {
           onChange={(e)=>{onFormUpdate('message',e.target.value)}}
         ></textarea>
         {status.message &&
-        <p className="text-start" style={{fontFamily:'"Montserrat", serif'}}>{status.message}</p>
+        <p className="text-start" style={{fontFamily:'"Montserrat", serif', color:status.color}}>{status.message}
+        {status
+        .success ?
+        <img className="ms-1" src={check}/>: <img className="ms-1"  src={cross}/>}</p>
         }
         <div
           className="d-flex flex-row justify-content-end align-items-start pt-0 mt-0"
