@@ -22,9 +22,9 @@ export default function MainInformation() {
           Hi, my name is leen.
         </p>
         <p
-          className="h1"
+          className="h1 bigText"
           style={{
-            fontSize: "70px",
+            
             fontFamily: '"Kadwa", serif',
             fontWeight: "bold",
           }}
@@ -32,9 +32,8 @@ export default function MainInformation() {
           I Craft logic for
         </p>
         <p
-          className="h1"
+          className="h1 bigText"
           style={{
-            fontSize: "70px",
             marginTop: "-15px",
             fontFamily: '"Kadwa", serif',
             fontWeight: "bold",
@@ -71,8 +70,8 @@ export default function MainInformation() {
         <img
           src={my_photo}
           alt="photo of me"
-          className="p-3"
-          style={{ maxWidth: "400px", maxHeight: "400px", marginTop: "80px" }}
+          className="p-3 smallScreenWidthAndHieght"
+          style={{ marginTop: "80px" }}
         />
       </section>
     </main>

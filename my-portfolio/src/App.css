@@ -46,10 +46,23 @@
 .my-column {
   border-right: solid 1px black;
 }
-
+.bigText{
+  font-size: 70px;
+}
+.smallScreenWidthAndHieght{
+  max-width: 400px;
+  max-height: 400px;
+}
 @media screen and (max-width: 780px) {
   .my-column {
     border-right: none;
+  }
+  .bigText{
+    font-size: 40px;
+  }
+  .smallScreenWidthAndHieght{
+    max-width: 300px;
+    max-height: 300px;
   }
 }
 .card {
