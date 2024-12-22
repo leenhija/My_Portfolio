@@ -15,13 +15,13 @@ export default function InfoCard() {
   };
   return (
     <section
-      className="row container d-flex  gap-0 p-3 text-start"
+      className="row container d-flex d-flex flex-row flex-md-row flex-column justify-content-center   gap-0  text-start"
       style={{ fontFamily: '"Roboto", sans-serif' }}
     >
       <div className="col">
         <img
           src={my_photo}
-          style={{ maxWidth: "250px", maxHeight: "380px" }}
+          style={{width:'100%',objectFit:'cover', maxWidth: "250px",minWidth:'100px', maxHeight: "380px" }}
           alt="photo of me "
           className="rounded-3"
         />

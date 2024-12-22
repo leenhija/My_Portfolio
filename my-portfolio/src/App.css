@@ -53,6 +53,20 @@
   max-width: 400px;
   max-height: 400px;
 }
+.responsiveWidth{
+  max-width: 600px;
+}
+.conrtollGap{
+  gap: 20px;
+}
+.resizeExperienceBox{
+  display: flex;
+  flex-direction: row;
+}
+.resizeImage{
+  max-width: 400px;
+}
+
 @media screen and (max-width: 780px) {
   .my-column {
     border-right: none;
@@ -64,6 +78,29 @@
     max-width: 300px;
     max-height: 300px;
   }
+  .responsiveWidth{
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .conrtollGap{
+    gap: 0px;
+  }
+ .resizeExperienceBox{
+  display: flex;
+  flex-direction: column;
+ }
+.resizeImage{
+  max-width: 300px;
+}
+
+}
+@media screen and (max-width: 400px) {
+p{
+  font-size: smaller;
+}
 }
 .card {
   padding: 2em;

@@ -61,7 +61,7 @@ export default function Project({ image, title, date, children ,github }) {
         <p className="ps-3 pe-3">{title}</p>
         <p className="ps-3 pe-3">{date}</p>
       </div>
-      <div className="d-flex flex-column column-gap-1 text-start ">
+      <div className="d-flex flex-column column-gap-1 text-start " >
         {children}
       </div>
     </section>

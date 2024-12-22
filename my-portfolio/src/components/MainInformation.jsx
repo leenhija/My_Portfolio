@@ -14,10 +14,10 @@ export default function MainInformation() {
   return (
     <main
       id="home"
-      className="container row gap-5 mb-5 p-5"
+      className="container row gap-5 mb-5 p-5 conrtollGap"
       data-aos="fade-down"
     >
-      <section className="col d-flex-col ms-0 align-items-center justify-content-end text-start mt-5 pt-5   ">
+      <section className="col d-flex-col ms-0 align-items-center justify-content-end text-start mt-5 pt-5   responsiveWidth">
         <p className="h6" style={{ fontFamily: '"Roboto", sans-serif' }}>
           Hi, my name is leen.
         </p>

@@ -42,7 +42,7 @@ export default function ContactMeForm() {
     <div
       className="grid col p-3 rounded-3"
     >
-      <p className="text-start fw-bold" style={{ fontFamily: '"Montserrat", serif' }}>
+      <p className="text-start fw-bold" style={{ fontFamily: '"Rubik", serif' }}>
         Feel free to reach out to me anytime!
       </p>
       <form onSubmit={handleSubmit} className="d-flex flex-column gap-1 text-start ">

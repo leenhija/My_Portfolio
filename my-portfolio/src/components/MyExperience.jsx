@@ -1,6 +1,6 @@
 import Experience from "./Experience";
 import Rhino from '../assets/rhino_logo.png'
-import Alrajaa from '../assets/alrajaa_logo.png'
+import Alrajaa from '../assets/alrajaa_logo5.png'
 export default function MyExperience() {
   return (
     <section id="Experience" className="container appearAnimation grid col mt-5 gap-5 d-flex flex-column justify-content-center mb-5">

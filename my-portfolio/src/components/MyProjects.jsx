@@ -62,10 +62,10 @@ export default function MyProjects() {
         <p className="ps-3 pe-3" style={{ fontFamily:'"Montserrat", serif',fontSize:'14px'}}>
           3. Utilized Context API to manage global state. 
         </p>
-        <p className="ps-3 pe-3" style={{ fontFamily:'"Montserrat", serif',fontSize:'14px'}}>
+        {/* <p className="ps-3 pe-3" style={{ fontFamily:'"Montserrat", serif',fontSize:'14px'}}>
           4. Applied useEffect hook for handling side effects, such as data fetching and managing 
           component lifecycle events. 
-        </p>
+        </p> */}
       </Project>
    
       <Project image={managmentProject} title="Project Management" date="2024" github="https://github.com/leenhija/Project-Managment.git">
