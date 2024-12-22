@@ -11,12 +11,12 @@ export default function Project({ image, title, date, children ,github }) {
   }
   return (
     <section
-      className=" column-gap-1 rounded-3 mb-4 mt-3 ps-0 pe-0"
+      className=" column-gap-1 bg-secondary rounded-3 mb-4 mt-3 ps-0 pe-0"
       style={{
         boxShadow: "7px 7px rgb(0,0,0,25%)",
         maxWidth: "300px",
         maxHeight:'620px',
-        backgroundColor: "#D9D9D9",
+        // backgroundColor: "#D9D9D9",
         fontFamily: '"Roboto", sans-serif',
       }}
     >
