@@ -52,7 +52,7 @@ export default function InfoCard() {
           <Button
             onClick={() => downloadCV(pdf_url)}
             variant="warning"
-            className="mt-1 ps-4 pe-4 pt-2 pb-2 rounded-4"
+            className="mt-1 ps-4 pe-4 pt-2 pb-2 mb-4 rounded-4"
             style={{
               border: "none",
                backgroundColor:'#F8CF4B',
