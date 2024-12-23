@@ -5,7 +5,7 @@ import github from '../assets/githubLogo.svg'
 import facebook from '../assets/facebook.svg'
 export default function ContactMe() {
   return (
-    <section id="Contact" className="container grid col  pb-0 mb-0 mt-5">
+    <section id="Contact" className="container d-flex flex-column justify-content-center align-items-center grid col  pb-0 mb-0 mt-5">
       <div
         className="animateitem container d-flex flex-row flex-md-row flex-column grid row rounded-3 p-3"
         style={{ backgroundColor: "#9CC8FA" }}

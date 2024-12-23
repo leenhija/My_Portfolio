@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 export default function MyProjects() {
 
   return (
-    <section id="projects" className="container animateitem grid col d-flex flex-column justify-content-center mb-5" >
+    <section id="projects" className="container animateitem grid col d-flex flex-column justify-content-center align-items-center mb-5" >
       <div className='row  gap-5 pb-4'>
             <h1 style={{fontFamily:'"Rubik" , serif'}}>Projects</h1>
             </div>
