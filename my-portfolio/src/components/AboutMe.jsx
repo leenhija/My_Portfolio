@@ -27,7 +27,7 @@ export default function AboutMe() {
         </DetailsAboutMe>
         <DetailsAboutMe heading="Education:" className="row">
             Bachelor of Computer Information Systems Jordan University of
-            Science and Technology | Irbid, Jordan, July 2024
+            Science and Technology || Irbid, Jordan, July 2024
             <p className="text-start ps-0 ms-0">GPA: Very Good </p>
         </DetailsAboutMe>
       </div>
