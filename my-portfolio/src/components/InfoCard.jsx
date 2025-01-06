@@ -42,7 +42,7 @@ export default function InfoCard() {
             <strong>Email: </strong>leenaboalhijaa@gmail.com
           </p>
           <p>
-            <strong>Phone Number: </strong>+962779371455
+            <strong>Phone Number: </strong>+962799886439
           </p>
         </div>
         <div className="d-flex flex-column justify-content-center align-items-center pt-3">
