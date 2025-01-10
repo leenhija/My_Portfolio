@@ -1,7 +1,7 @@
 import my_photo from "../assets/my_photo2.jpg";
 import Button from "react-bootstrap/Button";
 // const pdf_url = "http://localhost:5000/Leen_Abo_AlHija.pdf";
-const pdf_url = "/Leen_Abo_AlHija.pdf";
+const pdf_url = "/leen_abu_alhyjaa.pdf";
 export default function InfoCard() {
   const downloadCV = (url) => {
     const fileName = url.split("/").pop();
